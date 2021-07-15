@@ -8,3 +8,9 @@
 result.xlsx为合并后的单元格。
 
 result.txt为相对应的批量导入数据库的命令。
+This code is mainly for the following working scenarios: when you need to import Excel data into the database in batches.
+However, an Excel also has multiple sheets, and the data column attributes of each Sheet are inconsistent.
+This code to achieve the merger of multiple SHEETS, and directly export the corresponding SQL statement, stored in TXT file.
+Result.xlsx is the merged cell.
+Result.txt is the corresponding command for bulk database import.
+It is recommended that you do not name your files in Chinese
